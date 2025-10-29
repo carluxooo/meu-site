@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(248, 233, 218, 0.644);
+    color: rgb(84, 62, 34);
+    font-family: "cabin", sans-serif;
+}
+
+header{
+    padding: 2rem;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+main{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+h2{
+    color: rgb(77, 67, 53);
+}
+input[type="radio"], input[type="checkbox"] {
+    accent-color: rgb(84, 62, 34);
+}
+
+select, input[type="date"]{
+    cursor: pointer;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="password"]{
+    width: 40%;
+    padding: 0.5rem;
+    border: solid wheat;
+    outline: none;
+    border-radius: 10px;
+}
+
+img{
+    width: 5rem;
+}
+
+table{
+    width: 50%;
+    border-collapse: collapse;
+    border-radius: 15%;
+}
+
+th{
+    background-color: rgb(224, 213, 198);
+    padding: 1rem;
+}
+td{
+    padding: 0.3rem;
+    text-align: center;
+}
+
+tfoot td{
+    background-color: antiquewhite;
+}
+
+details{
+    background-color: rgb(224, 213, 198);
+    padding: 0.5rem;
+    border-radius: 10px;
+    width: 60%;
+}
+
+summary{
+    padding: 0.8rem;
+    cursor: pointer;
+}
+
+ol{
+    margin-left: 1.7rem;
+}
+
+ol li{
+    padding: 0.2rem;
+}
+
+fieldset{
+    border-radius: 10px;
+    padding: 0.5rem;
+    width: 90%;
+}
+
+input {
+    margin-bottom: 0.3rem;
+}
+
+legend {
+    padding: 0.5rem;
+}
+
+textarea{
+    outline: none;
+    border: solid wheat;
+    border-radius: 10px;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+button {
+    border: none;
+    background-color: wheat;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: rgba(250, 222, 194, 0.879);
+    padding: 1rem;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(199, 103, 52);
+}
